@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
-import { AppRoutingModule } from './app-routing.module';
+import { AppRoutingModule  } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BanerComponent } from './baner/baner.component';
 import { ContactComponent } from './contact/contact.component';
@@ -28,7 +28,8 @@ import { ResponsiveDirective } from './directives/responsive.directive';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    
   ],
   providers: [],
   bootstrap: [AppComponent]
